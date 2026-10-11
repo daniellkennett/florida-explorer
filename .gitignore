@@ -1,0 +1,6 @@
+# Pipeline response caches: regenerable, and noisy in diffs.
+data/.*-cache.json
+
+.DS_Store
+*.pyc
+__pycache__/

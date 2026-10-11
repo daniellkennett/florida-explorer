@@ -1,0 +1,4227 @@
+[
+ {
+  "id": "miami-south-pointe-park",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "South Pointe Park",
+  "query": "South Pointe Park, Miami Beach, FL",
+  "description": "Panoramic views of the South Beach shoreline, departing cruise ships and the downtown skyline, with a pier, splash pad and shaded lawns.",
+  "category": "activity",
+  "tags": [
+   "family",
+   "free",
+   "nature",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.76592,
+  "lng": -80.13345,
+  "address": "1, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/south-pointe-park/"
+ },
+ {
+  "id": "miami-wynwood-walls",
+  "city": "Miami",
+  "neighborhood": "Wynwood",
+  "title": "Wynwood Walls",
+  "query": "Wynwood Walls, Miami, FL",
+  "description": "The outdoor museum that turned Wynwood into a street-art destination. Ticketed inside the Walls; the surrounding neighbourhood murals are free to wander.",
+  "category": "activity",
+  "tags": [
+   "art",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $12 adult; surrounding murals free",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.80114,
+  "lng": -80.19532,
+  "address": "2520 Northwest 2nd Avenue, Miami, Florida, 33127",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://thewynwoodwalls.com/"
+ },
+ {
+  "id": "miami-puerto-sagua",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Puerto Sagua",
+  "query": "Puerto Sagua Restaurant, Miami Beach, FL",
+  "description": "Legendary no-frills Cuban diner on Collins Avenue serving huge plates of ropa vieja, Cuban sandwiches and cortaditos since 1962.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family",
+   "cuban"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Entrees roughly $15-28",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:30",
+     "01:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "mapsPlaceId": "ChIJmR2qSI202YgR1VrwRE1usYE",
+  "lat": 25.7771,
+  "lng": -80.13265,
+  "address": "700 Collins Avenue, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-club-space",
+  "city": "Miami",
+  "neighborhood": "Downtown",
+  "title": "Club Space",
+  "query": "Club Space, Miami, FL",
+  "description": "World-renowned electronic music club with a legendary open-air Terrace. The famous sunrise sets run well into Sunday morning; not for the faint of heart.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife"
+  ],
+  "price": {
+   "level": 3,
+   "detail": "Cover typically $30-60+",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": [
+    [
+     "23:00",
+     "12:00"
+    ]
+   ],
+   "sat": [
+    [
+     "23:00",
+     "12:00"
+    ]
+   ],
+   "sun": [
+    [
+     "23:00",
+     "10:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "hours_prefer": "curated",
+  "lat": 25.78456,
+  "lng": -80.19315,
+  "address": "34 Northeast 11th Street, Miami, Florida, 33132",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.clubspace.com/",
+  "osm_opening_hours": "Sa-Su 00:00-16:00"
+ },
+ {
+  "id": "miami-ocean-drive",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Ocean Drive & the Art Deco District",
+  "query": "Ocean Drive, Miami Beach, FL",
+  "description": "Neon lights and the world's largest concentration of Art Deco architecture. Unbeatable people-watching after dark without spending a dime.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "nightlife",
+   "architecture"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "mapsPlaceId": "ChIJ14sQn5K02YgRlK5exlIIoQ8",
+  "lat": 25.77021,
+  "lng": -80.13291,
+  "address": "Ocean Drive, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-bayside-marketplace",
+  "city": "Miami",
+  "neighborhood": "Downtown",
+  "title": "Bayside Marketplace",
+  "query": "Bayside Marketplace, Miami, FL",
+  "description": "Open-air waterfront marketplace with live music, food stalls and departing boat tours. Energetic in the evenings and free to walk through.",
+  "category": "activity",
+  "tags": [
+   "family",
+   "free",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to enter",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "mapsPlaceId": "ChIJ2YAfbyC02YgRQzEiuI4qloc",
+  "lat": 25.77824,
+  "lng": -80.1871,
+  "address": "401 Biscayne Boulevard, Miami, Florida, 33132",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-beach-botanical-garden",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Miami Beach Botanical Garden",
+  "query": "Miami Beach Botanical Garden, Miami Beach, FL",
+  "description": "A free three-acre urban oasis of native palms, orchids and a Japanese garden, tucked improbably behind the Convention Center.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "nature",
+   "family"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free admission",
+   "free": true
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "mapsPlaceId": "ChIJV_1rv4O02YgRwYPLnjrwnqE",
+  "lat": 25.79567,
+  "lng": -80.13552,
+  "address": "2000, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.mbgarden.org/"
+ },
+ {
+  "id": "miami-ica",
+  "city": "Miami",
+  "neighborhood": "Design District",
+  "title": "Institute of Contemporary Art",
+  "query": "Institute of Contemporary Art, Miami, FL",
+  "description": "Always-free contemporary art museum in the Design District, with a sculpture garden out back and consistently strong rotating installations.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "art"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Always free admission",
+   "free": true
+  },
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "mapsPlaceId": "ChIJP_TMP1ex2YgR4S9TDvJAO2M",
+  "lat": 25.81436,
+  "lng": -80.1943,
+  "address": "61 Northeast 41st Street, Miami, Florida, 33137",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://icamiami.org/",
+  "osm_opening_hours": "Tu-Su 11:00-19:00"
+ },
+ {
+  "id": "miami-metromover",
+  "city": "Miami",
+  "neighborhood": "Downtown",
+  "title": "Metromover Skyline Ride",
+  "query": "Metromover, Miami, FL",
+  "description": "A completely free elevated people-mover looping Downtown and Brickell. The cheapest skyline tour in the city, with Biscayne Bay views.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Completely free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "05:00",
+     "00:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.77364,
+  "lng": -80.19598,
+  "address": "Southwest 1st Avenue, Miami, Florida, 33131",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-vizcaya",
+  "city": "Miami",
+  "neighborhood": "Coconut Grove",
+  "title": "Vizcaya Museum & Gardens",
+  "query": "Vizcaya Museum and Gardens, Miami, FL",
+  "description": "A 1916 Italianate villa on Biscayne Bay surrounded by formal European gardens. The most photogenic place in Miami and a National Historic Landmark.",
+  "category": "activity",
+  "tags": [
+   "art",
+   "family",
+   "nature",
+   "architecture"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $25 adult admission",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ],
+   "tue": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ],
+   "wed": null,
+   "thu": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ],
+   "fri": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ],
+   "sat": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ],
+   "sun": [
+    [
+     "09:30",
+     "16:30"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.7447,
+  "lng": -80.21158,
+  "address": "Miami, Florida",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-little-havana-calle-ocho",
+  "city": "Miami",
+  "neighborhood": "Little Havana",
+  "title": "Calle Ocho & Domino Park",
+  "query": "Maximo Gomez Park, Miami, FL",
+  "description": "Walk SW 8th Street past cigar rollers and fruit stands, and watch retirees play fierce dominoes at Maximo Gomez Park. Free and endlessly atmospheric.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "cuban"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.76549,
+  "lng": -80.21937,
+  "address": "Miami, Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "osm_opening_hours": "Mo-Su 09:00-18:00"
+ },
+ {
+  "id": "miami-versailles",
+  "city": "Miami",
+  "neighborhood": "Little Havana",
+  "title": "Versailles Restaurant",
+  "query": "Versailles Restaurant, Miami, FL",
+  "description": "The self-styled world's most famous Cuban restaurant, and the de facto town square of Miami's Cuban community. Order a cortadito at the walk-up window.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family",
+   "cuban"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Entrees roughly $14-30",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "00:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.76499,
+  "lng": -80.25277,
+  "address": "3555 Southwest 8th Street, Miami, Florida, 33135",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.versaillesrestaurant.com/location",
+  "osm_opening_hours": "Mo-Th 08:00-24:00; Su 09:00-24:00; Fr-Sa 08:00-01:00"
+ },
+ {
+  "id": "miami-perez-art-museum",
+  "city": "Miami",
+  "neighborhood": "Downtown",
+  "title": "Perez Art Museum Miami",
+  "query": "Perez Art Museum Miami, FL",
+  "description": "Herzog & de Meuron-designed museum on the bay, with hanging gardens and a terrace that is worth the visit on its own.",
+  "category": "activity",
+  "tags": [
+   "art",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $16 adult; free on second Saturdays",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "wed": null,
+   "thu": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.78603,
+  "lng": -80.18634,
+  "address": "1103 Biscayne Boulevard, Miami, Florida, 33132",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.pamm.org/",
+  "osm_opening_hours": "Mo,Fr-Su 11:00-18:00; Tu-We off; Th 11:00-21:00"
+ },
+ {
+  "id": "miami-key-biscayne-bill-baggs",
+  "city": "Miami",
+  "neighborhood": "Key Biscayne",
+  "title": "Bill Baggs Cape Florida State Park",
+  "query": "Bill Baggs Cape Florida State Park, Key Biscayne, FL",
+  "description": "An 1825 lighthouse, a mile of calm beach and Stiltsville views at the southern tip of Key Biscayne. The best beach day near the city.",
+  "category": "activity",
+  "tags": [
+   "family",
+   "nature",
+   "outdoors",
+   "beach"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "$8 per vehicle",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.67425,
+  "lng": -80.15796,
+  "address": "Key Biscayne, Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.floridastateparks.org/parks-and-trails/bill-baggs-cape-florida-state-park",
+  "osm_opening_hours": "Mo-Su, PH 08:00-sunset"
+ },
+ {
+  "id": "miami-mandolin",
+  "city": "Miami",
+  "neighborhood": "Buena Vista",
+  "title": "Mandolin Aegean Bistro",
+  "query": "4312 NE 2nd Avenue, Miami, FL 33137",
+  "description": "Greek and Turkish cooking served in the blue-and-white courtyard of a converted 1940s house in Buena Vista. Lunch outside is the move.",
+  "category": "food",
+  "tags": [
+   "food"
+  ],
+  "price": {
+   "level": 3,
+   "detail": "Entrees roughly $26-45",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.81578,
+  "lng": -80.19157,
+  "address": "4312 Northeast 2nd Avenue, Miami, Florida, 33137",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-lincoln-road",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Lincoln Road Mall",
+  "query": "Lincoln Road Mall, Miami Beach, FL",
+  "description": "A mile-long pedestrian promenade of shops, cafes and street performers, designed by Morris Lapidus. Free, lively and shaded in parts.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to walk",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.7903,
+  "lng": -80.13652,
+  "address": "Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://lincolnroadmall.com"
+ },
+ {
+  "id": "miami-joes-stone-crab",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Joe's Stone Crab",
+  "query": "Joe's Stone Crab, Miami Beach, FL",
+  "description": "A Miami institution since 1913. Stone crab claws in season (October to May), key lime pie year-round. The adjacent takeaway counter is far cheaper.",
+  "category": "food",
+  "tags": [
+   "food",
+   "seafood"
+  ],
+  "price": {
+   "level": 3,
+   "detail": "Claws market price, often $40-100+",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.76841,
+  "lng": -80.13524,
+  "address": "11 Washington Avenue, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://joesstonecrab.com/"
+ },
+ {
+  "id": "miami-wynwood-marketplace",
+  "city": "Miami",
+  "neighborhood": "Wynwood",
+  "title": "Wynwood Brewing & Taproom Row",
+  "query": "Wynwood Brewing Company, Miami, FL",
+  "description": "Miami's first craft brewery, anchoring a walkable strip of taprooms among the murals. Relaxed, dog-friendly and good before the clubs open.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife",
+   "food"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Pints roughly $8-10",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.80016,
+  "lng": -80.20438,
+  "address": "565 Northwest 24th Street, Miami, Florida, 33127",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-oleta-river",
+  "city": "Miami",
+  "neighborhood": "North Miami Beach",
+  "title": "Oleta River State Park",
+  "query": "Oleta River State Park, North Miami Beach, FL",
+  "description": "Florida's largest urban park: mangrove kayaking, 15 miles of mountain-bike trails and a calm swimming lagoon.",
+  "category": "activity",
+  "tags": [
+   "nature",
+   "outdoors",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "$6 per vehicle",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.91765,
+  "lng": -80.13743,
+  "address": "North Miami, Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.floridastateparks.org/oletariver"
+ },
+ {
+  "id": "miami-time-out-market",
+  "city": "Miami",
+  "neighborhood": "South Beach",
+  "title": "Time Out Market Miami",
+  "query": "Time Out Market Miami, Miami Beach, FL",
+  "description": "A curated food hall where a dozen of Miami's best chefs run stalls under one roof. The efficient way to eat well without a reservation.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Dishes roughly $12-25",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.7896,
+  "lng": -80.13279,
+  "address": "Drexel Avenue, Miami Beach, Florida, 33139",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-ball-and-chain",
+  "city": "Miami",
+  "neighborhood": "Little Havana",
+  "title": "Ball & Chain",
+  "query": "1513 SW 8th Street, Miami, FL 33135",
+  "description": "A 1935 Calle Ocho nightclub, reborn with live Cuban son and salsa on a pineapple-shaped stage. Mojitos and dancing, no pretension.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife",
+   "cuban"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "No cover most nights; cocktails $14-18",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "03:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 25.76587,
+  "lng": -80.2198,
+  "address": "1513 Southwest 8th Street, Miami, Florida, 33135",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "miami-zoo-miami",
+  "city": "Miami",
+  "neighborhood": "South Dade",
+  "title": "Zoo Miami",
+  "query": "Zoo Miami, FL",
+  "description": "The only subtropical zoo in the continental US, so the animals are housed in open, cageless habitats. Vast; rent the tram in summer.",
+  "category": "activity",
+  "tags": [
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $23 adult, $19 child",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 25.61337,
+  "lng": -80.39992,
+  "address": "The Asian Trail, Florida, 33177",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-ob-house",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Las Olas",
+  "title": "O-B House",
+  "query": "OB House, 333 Himmarshee St, Fort Lauderdale",
+  "description": "Breakfast spot known for thick cast-iron baked pancakes and genuinely fresh ingredients. Expect a wait on weekends.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Plates roughly $14-22",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "14:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.1206,
+  "lng": -80.14732,
+  "address": "333 Himmarshee Street, Fort Lauderdale, Florida, 33312",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "osm_opening_hours": "Mo-Fr 07:00-13:00; Sa-Su 08:00-13:00"
+ },
+ {
+  "id": "ftl-riverwalk",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Downtown",
+  "title": "Riverwalk Fort Lauderdale",
+  "query": "Riverwalk, Fort Lauderdale, FL",
+  "description": "A mile and a half of brick promenade shaded by live oaks along the New River, linking the arts district to Las Olas. Free and lovely at sunset.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "nature",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 26.11924,
+  "lng": -80.14702,
+  "address": "Riverwalk, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-el-camino",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Las Olas",
+  "title": "El Camino",
+  "query": "El Camino, Fort Lauderdale, FL",
+  "description": "Bustling Las Olas taqueria with a 100-plus tequila list, strong margaritas and a late-night room that turns loud in a good way.",
+  "category": "food",
+  "tags": [
+   "food",
+   "nightlife"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Tacos roughly $6-8 each",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "01:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.1194,
+  "lng": -80.13468,
+  "address": "817 East Las Olas Boulevard, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://elcaminofla.com/"
+ },
+ {
+  "id": "ftl-museum-of-discovery",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Downtown",
+  "title": "Museum of Discovery & Science",
+  "query": "Museum of Discovery and Science, Fort Lauderdale, FL",
+  "description": "Hands-on exhibits, an otter habitat and a five-storey IMAX. The reliable rainy-day or too-hot-outside answer for families.",
+  "category": "activity",
+  "tags": [
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $22 adult, $18 child",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.12111,
+  "lng": -80.14793,
+  "address": "401 Himmarshee Street, Fort Lauderdale, Florida, 33312",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://mods.org/",
+  "osm_opening_hours": "Mo-Sa 10:00-17:00; Su 12:00-17:00"
+ },
+ {
+  "id": "ftl-las-olas",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Las Olas",
+  "title": "Las Olas Boulevard",
+  "query": "Las Olas Boulevard, Fort Lauderdale, FL",
+  "description": "Fort Lauderdale's signature boulevard: galleries, boutiques and sidewalk cafes running from downtown to the beach. Free to stroll.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to walk",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.11947,
+  "lng": -80.14326,
+  "address": "East Las Olas Boulevard, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-floridian",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Las Olas",
+  "title": "The Floridian",
+  "query": "Floridian Restaurant, Fort Lauderdale, FL",
+  "description": "A 24-hour Las Olas institution since 1937, walls covered in photographs. Enormous classic diner breakfast at any hour, cash-friendly prices.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "Breakfast roughly $10-18",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "mapsPlaceId": "ChIJQWpeWE4A2YgRNKx4pjQK7PE",
+  "lat": 26.11841,
+  "lng": -80.12881,
+  "address": "Southeast 4th Street, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-peter-pan-diner",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Oakland Park",
+  "title": "Peter Pan Diner",
+  "query": "1216 North Federal Highway, Fort Lauderdale, FL 33304",
+  "description": "Old-school Greek-American diner with huge portions, a rotating pie case and prices that have barely moved in a decade.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "Plates roughly $10-17",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "mapsPlaceId": "ChIJjYMQZ48B2YgR8At-XSDkDV0",
+  "lat": 26.14179,
+  "lng": -80.1199,
+  "address": "1216 North Federal Highway, Fort Lauderdale, Florida, 33304",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-lesters-diner",
+  "city": "Fort Lauderdale",
+  "neighborhood": "State Road 84",
+  "title": "Lester's Diner",
+  "query": "Lester's Diner, Fort Lauderdale, FL",
+  "description": "Open 24 hours since 1967, famous for 14-ounce cups of coffee and an unchanged retro room. Cheap, comforting, and busiest at 3am.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "Plates roughly $9-16",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "mapsPlaceId": "ChIJAaHb6YcA2YgRJlrFdHvy3RE",
+  "lat": 26.09226,
+  "lng": -80.14424,
+  "address": "250 Marina Boulevard, Fort Lauderdale, Florida, 33315",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.lestersdiner.com",
+  "osm_opening_hours": "24/7"
+ },
+ {
+  "id": "ftl-beach-promenade",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Fort Lauderdale Beach",
+  "title": "Fort Lauderdale Beach Promenade",
+  "query": "Fort Lauderdale Beach Boulevard, FL",
+  "description": "Seven miles of sand behind the signature white wave wall, with a wide promenade for walking and skating. Free, with metered parking.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "beach",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free; metered parking",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "tue": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "wed": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "thu": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "fri": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sat": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 26.13082,
+  "lng": -80.1041,
+  "address": "551 North Fort Lauderdale Beach Boulevard, Fort Lauderdale, Florida, 33304",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-hugh-taylor-birch",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Sunrise",
+  "title": "Hugh Taylor Birch State Park",
+  "query": "Hugh Taylor Birch State Park, Fort Lauderdale, FL",
+  "description": "180 acres of rare maritime hammock wedged between the Intracoastal and the beach, with a freshwater lagoon and a tunnel to the sand.",
+  "category": "activity",
+  "tags": [
+   "nature",
+   "outdoors",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "$6 per vehicle",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.14577,
+  "lng": -80.10512,
+  "address": "3109, Fort Lauderdale, Florida, 33304",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.floridastateparks.org/hughtaylorbirch",
+  "osm_opening_hours": "Mo-Su 08:00-20:30"
+ },
+ {
+  "id": "ftl-bonnet-house",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Sunrise",
+  "title": "Bonnet House Museum & Gardens",
+  "query": "Bonnet House Museum and Gardens, Fort Lauderdale, FL",
+  "description": "An eccentric 1920s plantation-style home on 35 acres of subtropical grounds, complete with resident squirrel monkeys and orchid houses.",
+  "category": "activity",
+  "tags": [
+   "art",
+   "nature",
+   "architecture"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $25 house and grounds tour",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.1351,
+  "lng": -80.10562,
+  "address": "900, Fort Lauderdale, Florida, 33304",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.bonnethouse.org/",
+  "osm_opening_hours": "Tu-Su 11:00-16:00"
+ },
+ {
+  "id": "ftl-water-taxi",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Downtown",
+  "title": "Fort Lauderdale Water Taxi",
+  "query": "1 East Las Olas Boulevard, Fort Lauderdale, FL 33301",
+  "description": "Hop-on hop-off boats threading the canals that earned the city its Venice of America name, with narration on the mansions and megayachts.",
+  "category": "activity",
+  "tags": [
+   "family",
+   "outdoors"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $38 all-day pass",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 26.11957,
+  "lng": -80.14266,
+  "address": "1 East Las Olas Boulevard, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://nsuartmuseum.org/",
+  "osm_opening_hours": "Tu-Sa 11:00-17:00; Su 12:00-17:00"
+ },
+ {
+  "id": "ftl-coconuts",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Intracoastal",
+  "title": "Coconuts",
+  "query": "Coconuts, Fort Lauderdale, FL",
+  "description": "Waterfront deck where boats pull up alongside your table. Fish tacos, cold beer and the most reliably pleasant afternoon in the city.",
+  "category": "food",
+  "tags": [
+   "food",
+   "seafood",
+   "outdoors"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Entrees roughly $18-34",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 26.1172,
+  "lng": -80.10622,
+  "address": "429 Seabreeze Boulevard, Fort Lauderdale, Florida, 33316",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.coconutsfortlauderdale.com/",
+  "osm_opening_hours": "Su 10:00-22:00, Mo-Sa 11:30-22:00"
+ },
+ {
+  "id": "ftl-rok-brgr",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Himmarshee",
+  "title": "Himmarshee Village Bar Strip",
+  "query": "Himmarshee Street, Fort Lauderdale, FL",
+  "description": "Two blocks of bars and live-music rooms off SW 2nd Street. The centre of downtown nightlife, busiest Thursday through Saturday.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife",
+   "food"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Cocktails roughly $12-16",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "tue": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "wed": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "thu": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "fri": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "17:00",
+     "02:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.12043,
+  "lng": -80.15479,
+  "address": "Himmarshee Street, Fort Lauderdale, Florida, 33394",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-anglins-pier",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Lauderdale-by-the-Sea",
+  "title": "Anglin's Fishing Pier & Lauderdale-by-the-Sea",
+  "query": "2 Commercial Boulevard, Lauderdale-by-the-Sea, FL 33308",
+  "description": "A walkable old-Florida beach village with a historic pier and shore-accessible reef snorkelling right off the sand.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "beach",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to walk the village and beach",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "07:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.18955,
+  "lng": -80.09538,
+  "address": "2 Commercial Boulevard, Lauderdale-by-the-Sea, Florida, 33308",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-flagler-village-brewery",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Flagler Village",
+  "title": "FATVillage & Flagler Village Arts District",
+  "query": "521 NW 1st Avenue, Fort Lauderdale, FL 33301",
+  "description": "Warehouse arts district of studios, murals and breweries just north of downtown. Best on the last-Saturday art walk.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "art",
+   "nightlife"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to wander",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.12826,
+  "lng": -80.14478,
+  "address": "521 Northwest 1st Avenue, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-sistrunk-marketplace",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Sistrunk",
+  "title": "Sistrunk Marketplace & Brewery",
+  "query": "Sistrunk Marketplace, Fort Lauderdale, FL",
+  "description": "A 30,000 square-foot food hall and brewery in a restored warehouse, with a dozen kitchens, a stage and a sizeable beer garden.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family",
+   "nightlife"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Dishes roughly $12-22",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.13004,
+  "lng": -80.14535,
+  "address": "Northwest 6th Street, Fort Lauderdale, Florida, 33311",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "ftl-gumbo-limbo",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Boca Raton",
+  "title": "Gumbo Limbo Nature Center",
+  "query": "Gumbo Limbo Nature Center, Boca Raton, FL",
+  "description": "Free nature centre with a boardwalk through coastal hammock, saltwater tanks and a sea-turtle rehabilitation facility.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "nature"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free; donation suggested",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sun": null
+  },
+  "recommended": false,
+  "lat": 26.36634,
+  "lng": -80.07016,
+  "address": "1801 North Ocean Boulevard, Boca Raton, Florida, 33432",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.gumbolimbo.org/"
+ },
+ {
+  "id": "ftl-stranahan-house",
+  "city": "Fort Lauderdale",
+  "neighborhood": "Las Olas",
+  "title": "Stranahan House Museum",
+  "query": "Stranahan House, Fort Lauderdale, FL",
+  "description": "The oldest surviving structure in Broward County, an 1901 trading post on the New River, shown by guided tour only.",
+  "category": "activity",
+  "tags": [
+   "architecture",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "About $15 guided tour",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "15:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 26.11826,
+  "lng": -80.13731,
+  "address": "South Federal Highway, Fort Lauderdale, Florida, 33301",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-disney-springs",
+  "city": "Orlando",
+  "neighborhood": "Lake Buena Vista",
+  "title": "Disney Springs",
+  "query": "Disney Springs, Lake Buena Vista, FL",
+  "description": "Vast waterside dining, shopping and entertainment complex. Free to enter and free to park, which makes it the best no-ticket Disney evening.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free entry and parking",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.37116,
+  "lng": -81.51837,
+  "address": "Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://disneyworld.disney.go.com/destinations/disney-springs/"
+ },
+ {
+  "id": "orl-lake-eola",
+  "city": "Orlando",
+  "neighborhood": "Downtown",
+  "title": "Lake Eola Park",
+  "query": "Lake Eola Park, Orlando, FL",
+  "description": "Downtown Orlando's centrepiece: a lake ringed by a one-mile path, the famous swan boats, and a fountain that lights up after dark.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "nature",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free; swan boats about $18 per half hour",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "06:00",
+     "00:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.54397,
+  "lng": -81.37043,
+  "address": "Orlando, Florida",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-se7en-bites",
+  "city": "Orlando",
+  "neighborhood": "Milk District",
+  "title": "Se7en Bites",
+  "query": "Se7en Bites, Orlando, FL",
+  "description": "Southern comfort bakery famous for towering biscuit breakfasts, the Minnie Pearl cake and pie that justifies the queue.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Plates roughly $13-20",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.55178,
+  "lng": -81.34704,
+  "address": "Irvington Avenue, Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-universal-citywalk",
+  "city": "Orlando",
+  "neighborhood": "Universal",
+  "title": "Universal CityWalk",
+  "query": "Universal CityWalk, Orlando, FL",
+  "description": "Restaurants, bars and live music immediately outside the Universal gates. No park ticket required, though parking is paid before 6pm.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "nightlife",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free entry; parking paid before 6pm",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "02:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.47332,
+  "lng": -81.46612,
+  "address": "Orlando, Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.universalorlando.com/Nightlife/Citywalk-Nightlife.aspx"
+ },
+ {
+  "id": "orl-wall-street-plaza",
+  "city": "Orlando",
+  "neighborhood": "Downtown",
+  "title": "Wall Street Plaza",
+  "query": "Wall Street Plaza, Orlando, FL",
+  "description": "Seven themed bars sharing one open-air downtown courtyard, with block parties spilling across the street at weekends.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Cover varies; drinks roughly $8-14",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "tue": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "wed": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "thu": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "fri": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "sat": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ],
+   "sun": [
+    [
+     "16:00",
+     "02:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.54273,
+  "lng": -81.3788,
+  "address": "25 North Orange Avenue, Orlando, Florida, 32801",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-old-town-kissimmee",
+  "city": "Orlando",
+  "neighborhood": "Kissimmee",
+  "title": "Old Town Kissimmee",
+  "query": "Old Town, Kissimmee, FL",
+  "description": "Retro walking district of classic-car cruises, old-fashioned shops and a vintage midway. Free to enter, delightfully kitsch.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "nightlife",
+   "family"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free entry; rides priced individually",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.33062,
+  "lng": -81.51597,
+  "address": "5770, Kissimmee, Florida, 34746",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.myoldtownusa.com/index.cfm"
+ },
+ {
+  "id": "orl-audubon-park",
+  "city": "Orlando",
+  "neighborhood": "Audubon Park",
+  "title": "Audubon Park Garden District",
+  "query": "East End Market, 3201 Corrine Dr, Orlando",
+  "description": "A genuinely local strip of makers, vintage shops, a co-op grocery and East End Market. Best during the Wednesday evening market.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "food"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to wander",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.56831,
+  "lng": -81.34377,
+  "address": "3201 Corrine Drive, Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://eastendmkt.com"
+ },
+ {
+  "id": "orl-leu-gardens",
+  "city": "Orlando",
+  "neighborhood": "Audubon Park",
+  "title": "Harry P. Leu Gardens",
+  "query": "Harry P. Leu Gardens, Orlando, FL",
+  "description": "Fifty acres of camellias, roses and one of the largest formal rose gardens in the Southeast, on the shore of Lake Rowena.",
+  "category": "activity",
+  "tags": [
+   "nature",
+   "family",
+   "outdoors"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "About $15 adult",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.56788,
+  "lng": -81.35748,
+  "address": "Orlando, Florida",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-winter-park-scenic-boat",
+  "city": "Orlando",
+  "neighborhood": "Winter Park",
+  "title": "Winter Park Scenic Boat Tour",
+  "query": "312 East Morse Boulevard, Winter Park, FL 32789",
+  "description": "A one-hour pontoon tour through the canals linking Winter Park's lakes, past lakefront estates and Rollins College. Running since 1938.",
+  "category": "activity",
+  "tags": [
+   "family",
+   "nature",
+   "outdoors"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $18 adult, $10 child",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.59789,
+  "lng": -81.34683,
+  "address": "312 East Morse Boulevard, Winter Park, Florida, 32789",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-park-avenue-winter-park",
+  "city": "Orlando",
+  "neighborhood": "Winter Park",
+  "title": "Park Avenue, Winter Park",
+  "query": "Park Avenue, Winter Park, FL",
+  "description": "Brick-paved avenue of boutiques and sidewalk cafes facing Central Park, with the Morse Museum's Tiffany glass collection at the north end.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "art"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to stroll",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "21:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.59393,
+  "lng": -81.36725,
+  "address": "Dallas Avenue, Winter Park, Florida, 32789",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-east-end-market",
+  "city": "Orlando",
+  "neighborhood": "Audubon Park",
+  "title": "East End Market",
+  "query": "East End Market, Orlando, FL",
+  "description": "A neighbourhood food hub of small-batch vendors, a bakery, a fishmonger and Domu's ramen counter. Where Orlando's food scene actually lives.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Dishes roughly $10-22",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.56831,
+  "lng": -81.34377,
+  "address": "3201 Corrine Drive, Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://eastendmkt.com"
+ },
+ {
+  "id": "orl-black-rooster-taqueria",
+  "city": "Orlando",
+  "neighborhood": "Mills 50",
+  "title": "Black Rooster Taqueria",
+  "query": "1323 North Mills Avenue, Orlando, FL 32803",
+  "description": "Small Mills 50 taqueria doing scratch tortillas and bright, careful salsas. Cheap, fast and consistently the best tacos downtown.",
+  "category": "food",
+  "tags": [
+   "food",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "Tacos roughly $5-6 each",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "sun": null
+  },
+  "recommended": false,
+  "lat": 28.56273,
+  "lng": -81.36436,
+  "address": "1323 North Mills Avenue, Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-mills-50",
+  "city": "Orlando",
+  "neighborhood": "Mills 50",
+  "title": "Mills 50 District",
+  "query": "Mills 50, Orlando, FL",
+  "description": "Orlando's Vietnamese and creative quarter: pho counters, bubble tea, murals and dive bars, all walkable and refreshingly untouristed.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "food",
+   "art"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free to wander",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.55315,
+  "lng": -81.36445,
+  "address": "Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-kraft-azalea",
+  "city": "Orlando",
+  "neighborhood": "Winter Park",
+  "title": "Kraft Azalea Garden",
+  "query": "Kraft Azalea Garden, Winter Park, FL",
+  "description": "A quiet free lakeside garden of cypress and azaleas on Lake Maitland, with a marble exedra that is a local sunset ritual.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "nature",
+   "outdoors"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "20:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.61074,
+  "lng": -81.34522,
+  "address": "Winter Park, Florida",
+  "geo_source": "OpenStreetMap/Nominatim"
+ },
+ {
+  "id": "orl-orlando-science-center",
+  "city": "Orlando",
+  "neighborhood": "Loch Haven",
+  "title": "Orlando Science Center",
+  "query": "Orlando Science Center, FL",
+  "description": "Four floors of hands-on exhibits, a dinosaur hall and a giant-screen theatre. The city's best indoor option for kids on a wet afternoon.",
+  "category": "activity",
+  "tags": [
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $25 adult, $18 child",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "wed": null,
+   "thu": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.57229,
+  "lng": -81.3683,
+  "address": "777 East Princeton Street, Orlando, Florida, 32803",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.osc.org/"
+ },
+ {
+  "id": "orl-wekiwa-springs",
+  "city": "Orlando",
+  "neighborhood": "Apopka",
+  "title": "Wekiwa Springs State Park",
+  "query": "Wekiwa Springs State Park, Apopka, FL",
+  "description": "A 72-degree natural spring you can swim in year-round, with canoe rentals and 13 miles of trails half an hour from downtown.",
+  "category": "activity",
+  "tags": [
+   "nature",
+   "outdoors",
+   "family"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "$6 per vehicle",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "tue": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "wed": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "thu": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "fri": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sat": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "recommended": true,
+  "lat": 28.74248,
+  "lng": -81.48827,
+  "address": "Apopka, Florida",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.floridastateparks.org/parks-and-trails/wekiwa-springs-state-park"
+ },
+ {
+  "id": "orl-morse-museum",
+  "city": "Orlando",
+  "neighborhood": "Winter Park",
+  "title": "Morse Museum of American Art",
+  "query": "Charles Hosmer Morse Museum of American Art, Winter Park, FL",
+  "description": "The world's most comprehensive Louis Comfort Tiffany collection, including the restored chapel interior from the 1893 World's Fair.",
+  "category": "activity",
+  "tags": [
+   "art"
+  ],
+  "price": {
+   "level": 1,
+   "detail": "About $6 adult; free Fridays 4-8pm Nov-Apr",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ],
+   "wed": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ],
+   "thu": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ],
+   "fri": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ],
+   "sat": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ],
+   "sun": [
+    [
+     "09:30",
+     "16:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.60081,
+  "lng": -81.3513,
+  "address": "445 North Park Avenue, Winter Park, Florida, 32789",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://morsemuseum.org/",
+  "osm_opening_hours": "Tu-Sa 09:30-16:00; Su 13:00-16:00; Nov-Apr: Fr 16:00-20:00"
+ },
+ {
+  "id": "orl-icon-park",
+  "city": "Orlando",
+  "neighborhood": "International Drive",
+  "title": "ICON Park",
+  "query": "ICON Park, Orlando, FL",
+  "description": "Open-air complex on I-Drive anchored by a 400-foot observation wheel. Free to enter and walk; individual attractions ticketed.",
+  "category": "activity",
+  "tags": [
+   "free",
+   "family",
+   "nightlife"
+  ],
+  "price": {
+   "level": 0,
+   "detail": "Free entry; wheel about $30",
+   "free": true
+  },
+  "hours": {
+   "mon": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "tue": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:00",
+     "00:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.44553,
+  "lng": -81.47342,
+  "address": "8300 Jamaican Court, Orlando, Florida, 32819",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://monrealeorlando.com/welcome-to-hotel-monreale-inn-studios-i-drive-icon-park-orlando-fl/"
+ },
+ {
+  "id": "orl-hourglass-brewing",
+  "city": "Orlando",
+  "neighborhood": "SoDo",
+  "title": "Hourglass District",
+  "query": "Hourglass Brewing, Orlando, FL",
+  "description": "A compact neighbourhood of breweries, a bottle shop and good pizza in a once-overlooked corner of Orlando. Low-key and local.",
+  "category": "nightlife",
+  "tags": [
+   "nightlife",
+   "food"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Pints roughly $7-9",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "tue": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "wed": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "thu": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "fri": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sat": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ],
+   "sun": [
+    [
+     "15:00",
+     "23:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.52373,
+  "lng": -81.35032,
+  "address": "2500 Curry Ford Road, Orlando, Florida, 32806",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "osm_opening_hours": "Mo-Sa 11:00-23:00"
+ },
+ {
+  "id": "orl-dr-phillips-center",
+  "city": "Orlando",
+  "neighborhood": "Downtown",
+  "title": "Dr. Phillips Center for the Performing Arts",
+  "query": "Dr. Phillips Center for the Performing Arts, Orlando, FL",
+  "description": "Downtown's Broadway touring house and concert venue, with a free-to-use plaza and frequent outdoor programming.",
+  "category": "activity",
+  "tags": [
+   "art",
+   "nightlife",
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "Tickets vary widely; plaza free",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.53766,
+  "lng": -81.37669,
+  "address": "445 Magnolia Avenue, Orlando, Florida, 32801",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.drphillipscenter.org/"
+ },
+ {
+  "id": "orl-gatorland",
+  "city": "Orlando",
+  "neighborhood": "South Orlando",
+  "title": "Gatorland",
+  "query": "Gatorland, Orlando, FL",
+  "description": "The self-declared Alligator Capital of the World, open since 1949. Unpolished, genuinely old-Florida, and far better value than the big parks.",
+  "category": "activity",
+  "tags": [
+   "family"
+  ],
+  "price": {
+   "level": 2,
+   "detail": "About $32 adult, $25 child",
+   "free": false
+  },
+  "hours": {
+   "mon": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "tue": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "wed": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "thu": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "fri": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sat": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.35499,
+  "lng": -81.4019,
+  "address": "14501 South Orange Blossom Trail, Orlando, Florida, 32837",
+  "geo_source": "OpenStreetMap/Nominatim",
+  "website": "https://www.gatorland.com/",
+  "osm_opening_hours": "10:00-17:00"
+ },
+ {
+  "id": "orl-ravenous-pig",
+  "city": "Orlando",
+  "neighborhood": "Winter Park",
+  "title": "The Ravenous Pig",
+  "query": "The Ravenous Pig, Winter Park, FL",
+  "description": "The gastropub that kicked off Orlando's independent food scene. House charcuterie, a serious beer programme and a famous burger.",
+  "category": "food",
+  "tags": [
+   "food",
+   "nightlife"
+  ],
+  "price": {
+   "level": 3,
+   "detail": "Entrees roughly $24-42",
+   "free": false
+  },
+  "hours": {
+   "mon": null,
+   "tue": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "wed": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "thu": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "fri": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sat": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ],
+   "sun": [
+    [
+     "11:30",
+     "22:00"
+    ]
+   ]
+  },
+  "recommended": false,
+  "lat": 28.59336,
+  "lng": -81.356,
+  "address": "Fairbanks Avenue, Winter Park, Florida, 32789",
+  "geo_source": "OpenStreetMap/Nominatim"
+ }
+]
