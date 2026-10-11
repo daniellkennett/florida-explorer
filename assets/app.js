@@ -648,6 +648,14 @@ const app = {
 
     applyUrl() {
         const params = new URLSearchParams(location.search);
+
+        // Chrome restores checkbox state across reloads and history
+        // navigation, which would silently filter a shared view the URL never
+        // asked for. Clear the controls first so the URL is the only source of
+        // truth for what is selected.
+        document.querySelectorAll('.vibe-input').forEach((el) => { el.checked = false; });
+        document.getElementById('open-now-toggle').checked = false;
+
         const city = params.get('city');
         if (city && CITY_META[city]) {
             const input = document.querySelector(`input[name="city"][value="${city}"]`);
