@@ -1,10 +1,13 @@
 /* Florida Explorer — custom refinements layered over Tailwind. */
 
 body {
-    background-color: #f7fafc;
+    /* Warm cream ground with soft tan and blush washes, rather than the
+       cooler blue original. */
+    background-color: #fdfbf7;
     background-image:
-        radial-gradient(at 0% 0%, hsla(228, 100%, 74%, 0.15) 0px, transparent 50%),
-        radial-gradient(at 100% 0%, hsla(189, 100%, 56%, 0.15) 0px, transparent 50%);
+        radial-gradient(at 0% 0%, hsla(34, 54%, 76%, 0.38) 0px, transparent 55%),
+        radial-gradient(at 100% 0%, hsla(0, 28%, 80%, 0.30) 0px, transparent 55%),
+        radial-gradient(at 50% 100%, hsla(96, 16%, 76%, 0.22) 0px, transparent 60%);
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
 }
@@ -23,26 +26,28 @@ body {
    `hidden`), and the adjacent label carries both the checked and focus styling
    so keyboard users can see where they are. */
 .chip-input:checked + label {
-    background-color: #e5edff;
-    border-color: #6875f5;
-    color: #5850ec;
+    background-color: #f1e4cd;
+    border-color: #c09a63;
+    /* brand-800: 7.2:1 on the tan fill. */
+    color: #6b5031;
 }
 
 .chip-input:focus-visible + label {
-    outline: 2px solid #5850ec;
+    outline: 2px solid #8a673d;
     outline-offset: 2px;
-    box-shadow: 0 0 0 3px rgba(104, 117, 245, 0.3);
+    box-shadow: 0 0 0 3px rgba(192, 154, 99, 0.35);
 }
 
 .city-input:checked + label {
-    background-color: #6875f5;
+    /* brand-700, the lightest tan that keeps white text at AA (5.1:1). */
+    background-color: #8a673d;
     color: #fff;
-    border-color: #6875f5;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-color: #8a673d;
+    box-shadow: 0 4px 6px rgba(120, 95, 60, 0.18), 0 1px 3px rgba(120, 95, 60, 0.12);
 }
 
 .city-input:focus-visible + label {
-    outline: 2px solid #362f78;
+    outline: 2px solid #4d3a24;
     outline-offset: 2px;
 }
 
@@ -51,7 +56,7 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 [tabindex]:focus-visible {
-    outline: 2px solid #5850ec;
+    outline: 2px solid #8a673d;
     outline-offset: 2px;
     border-radius: 0.375rem;
 }
@@ -59,15 +64,15 @@ input:focus-visible,
 /* Fallback tile shown when a photo fails to load, so a broken image icon
    never reaches the user. */
 .img-fallback {
-    background: linear-gradient(135deg, #e5edff 0%, #cddbfe 100%);
+    background: linear-gradient(135deg, #f9f2e7 0%, #e5d0aa 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #5145cd;
+    color: #8a673d;
     font-size: 2rem;
 }
 
-.modal-backdrop { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(4px); }
+.modal-backdrop { background: rgba(68, 56, 42, 0.55); backdrop-filter: blur(4px); }
 
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {

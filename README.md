@@ -1,4 +1,4 @@
-# Florida Explorer
+# Marie's Florida Explorer
 
 A static guide to Miami, Orlando and Fort Lauderdale that answers one question:
 **what should I do, right now, from where I am?**
@@ -100,4 +100,20 @@ cd scripts && python3 validate.py              # dataset integrity
 
 Everything user-facing that names the operator is in the `BRAND` object at the top of
 `assets/app.js` — name, tagline, hero copy, the curator badge shown on recommended places, and
-the logo glyph. Change it there; nothing else hardcodes a brand name.
+the logo glyph. Change it there; the only other places a name appears are the static
+`<title>`, the meta description and the nav fallback text in `index.html`, which exist for
+link previews and for the moment before JavaScript runs.
+
+### Colour
+
+The palette is a pastel tan defined once in the Tailwind config in `index.html` (`brand`,
+plus `sage` and `blush` companions), with warm `stone` neutrals in place of grey. Note that
+`brand-700` is the lightest tan that holds WCAG AA for normal-size text and for white text on
+a filled background, so interactive fills and body-size accents use 700 or darker — the
+lighter steps are for backgrounds and large display text only.
+
+### Recommendations
+
+The gold "Daniel Recommended" badge is driven by `recommended: true` in `scripts/seed.py`.
+It is currently set on the three Miami places that have actually been visited: Bayside
+Marketplace, Ocean Drive and Calle Ocho / Domino Park.

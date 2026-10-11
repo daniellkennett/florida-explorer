@@ -3,13 +3,13 @@
 /* ---------------------------------------------------------------- branding */
 /* Everything user-facing that identifies the operator lives here. */
 const BRAND = {
-    name: 'Florida Explorer',
+    name: "Marie's Florida Explorer",
     tagline: 'Curated local experiences',
     heroLead: 'Discover Florida on',
     heroAccent: 'your schedule.',
     heroBody: "Tell us where you are, what time it is, and what you're feeling. " +
               "We'll curate the perfect local experience for you.",
-    curatorBadge: 'Local Pick',
+    curatorBadge: 'Daniel Recommended',
     icon: 'fa-map-location-dot',
 };
 
@@ -29,29 +29,31 @@ const CITY_META = {
     'Fort Lauderdale': { icon: 'fa-anchor', lat: 26.1224, lng: -80.1373 },
 };
 
+/* Muted, low-saturation fills to sit with the tan ground. Text stays at the
+   -800 step so each chip keeps AA contrast on its own pastel background. */
 const TAG_STYLE = {
-    free: { icon: 'fa-piggy-bank', cls: 'text-green-700 bg-green-50 border-green-200' },
-    food: { icon: 'fa-utensils', cls: 'text-orange-700 bg-orange-50 border-orange-200' },
-    family: { icon: 'fa-children', cls: 'text-blue-700 bg-blue-50 border-blue-200' },
-    nightlife: { icon: 'fa-martini-glass-citrus', cls: 'text-purple-700 bg-purple-50 border-purple-200' },
-    nature: { icon: 'fa-tree', cls: 'text-teal-700 bg-teal-50 border-teal-200' },
-    art: { icon: 'fa-palette', cls: 'text-pink-700 bg-pink-50 border-pink-200' },
-    outdoors: { icon: 'fa-person-hiking', cls: 'text-lime-700 bg-lime-50 border-lime-200' },
-    beach: { icon: 'fa-water', cls: 'text-cyan-700 bg-cyan-50 border-cyan-200' },
-    seafood: { icon: 'fa-fish', cls: 'text-sky-700 bg-sky-50 border-sky-200' },
-    cuban: { icon: 'fa-mug-hot', cls: 'text-amber-700 bg-amber-50 border-amber-200' },
-    architecture: { icon: 'fa-landmark', cls: 'text-stone-700 bg-stone-50 border-stone-200' },
+    free: { icon: 'fa-piggy-bank', cls: 'text-emerald-800 bg-emerald-50 border-emerald-100' },
+    food: { icon: 'fa-utensils', cls: 'text-orange-800 bg-orange-50 border-orange-100' },
+    family: { icon: 'fa-children', cls: 'text-sky-800 bg-sky-50 border-sky-100' },
+    nightlife: { icon: 'fa-martini-glass-citrus', cls: 'text-violet-800 bg-violet-50 border-violet-100' },
+    nature: { icon: 'fa-tree', cls: 'text-teal-800 bg-teal-50 border-teal-100' },
+    art: { icon: 'fa-palette', cls: 'text-rose-800 bg-rose-50 border-rose-100' },
+    outdoors: { icon: 'fa-person-hiking', cls: 'text-lime-800 bg-lime-50 border-lime-100' },
+    beach: { icon: 'fa-water', cls: 'text-cyan-800 bg-cyan-50 border-cyan-100' },
+    seafood: { icon: 'fa-fish', cls: 'text-blue-800 bg-blue-50 border-blue-100' },
+    cuban: { icon: 'fa-mug-hot', cls: 'text-amber-800 bg-amber-50 border-amber-100' },
+    architecture: { icon: 'fa-landmark', cls: 'text-stone-700 bg-stone-100 border-stone-200' },
 };
 
 /* "Vibe" chips. `free` is a hard budget constraint; the rest are tastes that
    OR together, because a user ticking two of them means "either is fine". */
 const VIBES = [
-    { id: 'free', label: 'No spending (Free)', icon: 'fa-piggy-bank', colour: 'text-green-500', kind: 'constraint' },
-    { id: 'food', label: "I'm hungry", icon: 'fa-utensils', colour: 'text-orange-400', kind: 'taste' },
-    { id: 'family', label: 'Family Friendly', icon: 'fa-children', colour: 'text-blue-400', kind: 'taste' },
-    { id: 'nightlife', label: 'Nightlife', icon: 'fa-martini-glass-citrus', colour: 'text-purple-500', kind: 'taste' },
+    { id: 'free', label: 'No spending (Free)', icon: 'fa-piggy-bank', colour: 'text-emerald-600', kind: 'constraint' },
+    { id: 'food', label: "I'm hungry", icon: 'fa-utensils', colour: 'text-orange-500', kind: 'taste' },
+    { id: 'family', label: 'Family Friendly', icon: 'fa-children', colour: 'text-sky-500', kind: 'taste' },
+    { id: 'nightlife', label: 'Nightlife', icon: 'fa-martini-glass-citrus', colour: 'text-violet-500', kind: 'taste' },
     { id: 'outdoors', label: 'Outdoors', icon: 'fa-person-hiking', colour: 'text-lime-600', kind: 'taste' },
-    { id: 'art', label: 'Arts & Culture', icon: 'fa-palette', colour: 'text-pink-500', kind: 'taste' },
+    { id: 'art', label: 'Arts & Culture', icon: 'fa-palette', colour: 'text-rose-500', kind: 'taste' },
 ];
 
 /* ----------------------------------------------------------------- helpers */
@@ -338,36 +340,36 @@ const app = {
         if (state.open) {
             const left = ((state.closesAt - now.minutes) + 1440) % 1440;
             if (left <= 60) {
-                return { cls: 'bg-amber-100 text-amber-800',
+                return { cls: 'bg-amber-50 text-amber-800',
                          text: `Closes in ${left} min` };
             }
-            return { cls: 'bg-green-100 text-green-700', text: 'Open now' };
+            return { cls: 'bg-emerald-50 text-emerald-800', text: 'Open now' };
         }
         if (state.opensAt !== undefined) {
             const when = state.opensInDays === 0
                 ? `Opens ${formatClock(state.opensAt)}`
                 : `Opens ${DAY_LABEL[state.opensDay].slice(0, 3)} ${formatClock(state.opensAt)}`;
-            return { cls: 'bg-slate-100 text-slate-600', text: when };
+            return { cls: 'bg-stone-100 text-stone-600', text: when };
         }
-        return { cls: 'bg-slate-100 text-slate-600', text: 'Hours vary' };
+        return { cls: 'bg-stone-100 text-stone-600', text: 'Hours vary' };
     },
 
     cardHtml(place, now) {
         const tags = place.tags.slice(0, 3).map((tag) => {
             const style = TAG_STYLE[tag]
-                || { icon: 'fa-tag', cls: 'text-slate-600 bg-slate-50 border-slate-200' };
+                || { icon: 'fa-tag', cls: 'text-stone-600 bg-stone-50 border-stone-200' };
             return `<span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium border ${style.cls} capitalize">
                         <i class="fa-solid ${style.icon} mr-1.5"></i>${escapeHtml(tag)}
                     </span>`;
         }).join('');
 
         const price = place.price.free
-            ? '<span class="px-2 py-1 bg-green-100 text-green-700 text-xs font-bold rounded">FREE</span>'
-            : `<span class="px-2 py-1 bg-white/95 text-slate-700 text-xs font-bold rounded tracking-widest">${'$'.repeat(Math.max(1, place.price.level))}</span>`;
+            ? '<span class="px-2 py-1 bg-emerald-50 text-emerald-800 text-xs font-bold rounded">FREE</span>'
+            : `<span class="px-2 py-1 bg-white/95 text-stone-700 text-xs font-bold rounded tracking-widest">${'$'.repeat(Math.max(1, place.price.level))}</span>`;
 
         const badge = place.recommended
             ? `<div class="absolute top-3 left-3 z-10">
-                   <span class="px-2 py-1 bg-gradient-to-r from-yellow-400 to-yellow-600 text-white text-xs font-bold rounded-md inline-flex items-center shadow-lg border border-yellow-300">
+                   <span class="px-2 py-1 bg-gradient-to-r from-brand-700 to-brand-800 text-white text-xs font-bold rounded-md inline-flex items-center shadow-lg border border-brand-600">
                        <i class="fa-solid fa-star mr-1.5 text-[10px]"></i>${escapeHtml(BRAND.curatorBadge)}
                    </span>
                </div>`
@@ -375,11 +377,11 @@ const app = {
 
         const open = this.openLabel(place, now);
         const distance = this.position
-            ? `<span class="inline-flex items-center text-xs font-medium text-slate-500">
-                   <i class="fa-solid fa-location-arrow mr-1.5 text-brand-500"></i>
+            ? `<span class="inline-flex items-center text-xs font-medium text-stone-500">
+                   <i class="fa-solid fa-location-arrow mr-1.5 text-brand-700"></i>
                    ${haversineMiles(this.position, place).toFixed(1)} mi away
                </span>`
-            : `<span class="text-xs font-medium text-slate-400">${escapeHtml(place.neighborhood)}</span>`;
+            : `<span class="text-xs font-medium text-stone-500">${escapeHtml(place.neighborhood)}</span>`;
 
         const isSaved = this.saved.has(place.id);
         const img = place.image;
@@ -389,9 +391,9 @@ const app = {
             : '';
 
         return `
-        <article class="bg-white rounded-2xl shadow-stripe border border-slate-100 overflow-hidden hover:shadow-stripe-lg lift hover:-translate-y-1 group flex flex-col h-full relative">
+        <article class="bg-white rounded-2xl shadow-stripe border border-stone-100 overflow-hidden hover:shadow-stripe-lg lift hover:-translate-y-1 group flex flex-col h-full relative">
             ${badge}
-            <div class="relative h-48 overflow-hidden bg-slate-100">
+            <div class="relative h-48 overflow-hidden bg-stone-100">
                 ${img?.file
                     ? `<img src="${escapeHtml(img.file)}" alt="${escapeHtml(img.alt || place.title)}"
                             loading="lazy" decoding="async"
@@ -406,22 +408,22 @@ const app = {
                         aria-pressed="${isSaved}"
                         aria-label="${isSaved ? 'Remove' : 'Save'} ${escapeHtml(place.title)}"
                         onclick="app.toggleSaved('${place.id}')">
-                    <i class="fa-${isSaved ? 'solid' : 'regular'} fa-heart ${isSaved ? 'text-rose-500' : 'text-slate-400'}"></i>
+                    <i class="fa-${isSaved ? 'solid' : 'regular'} fa-heart ${isSaved ? 'text-rose-500' : 'text-stone-500'}"></i>
                 </button>
             </div>
             <div class="p-5 flex-1 flex flex-col">
                 <div class="flex flex-wrap gap-2 mb-3">${tags}</div>
-                <h3 class="text-xl font-bold text-slate-900 mb-1 leading-tight">${escapeHtml(place.title)}</h3>
+                <h3 class="text-xl font-bold text-stone-800 mb-1 leading-tight">${escapeHtml(place.title)}</h3>
                 <div class="flex items-center gap-2 mb-3">
                     <span class="px-2 py-0.5 rounded-full text-[11px] font-semibold ${open.cls}">${escapeHtml(open.text)}</span>
                     ${distance}
                 </div>
-                <p class="text-slate-500 text-sm flex-1 leading-relaxed">${escapeHtml(place.description)}</p>
-                <div class="mt-5 pt-4 border-t border-slate-100 flex justify-between items-center gap-3">
-                    <span class="text-xs font-medium text-slate-400 truncate" title="${escapeHtml(place.price.detail)}">
+                <p class="text-stone-500 text-sm flex-1 leading-relaxed">${escapeHtml(place.description)}</p>
+                <div class="mt-5 pt-4 border-t border-stone-100 flex justify-between items-center gap-3">
+                    <span class="text-xs font-medium text-stone-500 truncate" title="${escapeHtml(place.price.detail)}">
                         <i class="fa-solid fa-tag mr-1"></i>${escapeHtml(place.price.detail)}
                     </span>
-                    <button type="button" class="shrink-0 text-brand-600 hover:text-brand-700 font-semibold text-sm inline-flex items-center group/btn"
+                    <button type="button" class="shrink-0 text-brand-700 hover:text-brand-800 font-semibold text-sm inline-flex items-center group/btn"
                             onclick="app.openDetail('${place.id}')">
                         Details <i class="fa-solid fa-arrow-right ml-1 group-hover/btn:translate-x-1 transition-transform"></i>
                     </button>
@@ -452,21 +454,21 @@ const app = {
                     : `${formatClock(toMinutes(a))} – ${formatClock(toMinutes(b))}`)).join(', ')
                 : 'Closed';
             const isToday = d === now.day;
-            return `<tr class="${isToday ? 'font-semibold text-slate-900' : 'text-slate-500'}">
+            return `<tr class="${isToday ? 'font-semibold text-stone-800' : 'text-stone-500'}">
                         <td class="py-1 pr-4">${DAY_LABEL[d]}${isToday ? ' (today)' : ''}</td>
                         <td class="py-1">${escapeHtml(text)}</td>
                     </tr>`;
         }).join('');
 
         const credit = place.image?.artist
-            ? `<p class="text-[11px] text-slate-400 mt-2">
+            ? `<p class="text-[11px] text-stone-500 mt-2">
                    Photo: ${escapeHtml(place.image.artist)} — ${escapeHtml(place.image.licence || '')}
                    ${place.image.sourceUrl ? `· <a class="underline" href="${escapeHtml(place.image.sourceUrl)}" target="_blank" rel="noopener noreferrer">source</a>` : ''}
                </p>`
             : '';
 
         const distance = this.position
-            ? `<p class="text-sm text-slate-500 mt-1"><i class="fa-solid fa-location-arrow mr-2 text-brand-500"></i>${haversineMiles(this.position, place).toFixed(1)} miles from you</p>`
+            ? `<p class="text-sm text-stone-500 mt-1"><i class="fa-solid fa-location-arrow mr-2 text-brand-700"></i>${haversineMiles(this.position, place).toFixed(1)} miles from you</p>`
             : '';
 
         document.getElementById('modal-content').innerHTML = `
@@ -478,56 +480,56 @@ const app = {
                 <button type="button" onclick="app.closeDetail()"
                         class="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 hover:bg-white shadow flex items-center justify-center"
                         aria-label="Close details">
-                    <i class="fa-solid fa-xmark text-slate-700"></i>
+                    <i class="fa-solid fa-xmark text-stone-700"></i>
                 </button>
             </div>
             <div class="p-6">
                 <div class="flex items-start justify-between gap-4">
                     <div>
-                        <h2 id="modal-title" class="text-2xl font-bold text-slate-900">${escapeHtml(place.title)}</h2>
-                        <p class="text-sm text-slate-500">${escapeHtml(place.neighborhood)}, ${escapeHtml(place.city)}</p>
+                        <h2 id="modal-title" class="text-2xl font-bold text-stone-800">${escapeHtml(place.title)}</h2>
+                        <p class="text-sm text-stone-500">${escapeHtml(place.neighborhood)}, ${escapeHtml(place.city)}</p>
                     </div>
                     <span class="shrink-0 px-2.5 py-1 rounded-full text-xs font-semibold ${open.cls}">${escapeHtml(open.text)}</span>
                 </div>
 
-                <p class="text-slate-600 mt-4 leading-relaxed">${escapeHtml(place.description)}</p>
+                <p class="text-stone-600 mt-4 leading-relaxed">${escapeHtml(place.description)}</p>
 
                 <dl class="mt-5 grid sm:grid-cols-2 gap-4 text-sm">
                     <div>
-                        <dt class="font-semibold text-slate-700">Price</dt>
-                        <dd class="text-slate-500">${escapeHtml(place.price.detail)}</dd>
+                        <dt class="font-semibold text-stone-700">Price</dt>
+                        <dd class="text-stone-500">${escapeHtml(place.price.detail)}</dd>
                     </div>
                     <div>
-                        <dt class="font-semibold text-slate-700">Address</dt>
-                        <dd class="text-slate-500">${escapeHtml(place.address || '—')}</dd>
+                        <dt class="font-semibold text-stone-700">Address</dt>
+                        <dd class="text-stone-500">${escapeHtml(place.address || '—')}</dd>
                         ${distance}
                     </div>
                 </dl>
 
-                <h3 class="font-semibold text-slate-700 mt-5 mb-2 text-sm uppercase tracking-wider">Opening hours</h3>
+                <h3 class="font-semibold text-stone-700 mt-5 mb-2 text-sm uppercase tracking-wider">Opening hours</h3>
                 <table class="text-sm w-full"><tbody>${rows}</tbody></table>
-                <p class="text-[11px] text-slate-400 mt-2">
+                <p class="text-[11px] text-stone-500 mt-2">
                     Source: ${escapeHtml(place.hours_source || 'Curated')} · last verified ${escapeHtml(place.last_verified || 'unknown')}.
                     Hours change — please confirm with the venue.
                 </p>
 
                 <div class="mt-6 flex flex-wrap gap-3">
                     <a href="${escapeHtml(directionsUrl(place))}" target="_blank" rel="noopener noreferrer"
-                       class="px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm inline-flex items-center">
+                       class="px-4 py-2.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-semibold text-sm inline-flex items-center">
                         <i class="fa-solid fa-diamond-turn-right mr-2"></i>Directions
                     </a>
                     ${isApplePlatform()
                         ? `<a href="${escapeHtml(appleMapsUrl(place))}" target="_blank" rel="noopener noreferrer"
-                              class="px-4 py-2.5 rounded-xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-sm inline-flex items-center">
+                              class="px-4 py-2.5 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 font-semibold text-sm inline-flex items-center">
                                <i class="fa-brands fa-apple mr-2"></i>Apple Maps
                            </a>` : ''}
                     ${place.website
                         ? `<a href="${escapeHtml(place.website)}" target="_blank" rel="noopener noreferrer"
-                              class="px-4 py-2.5 rounded-xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-sm inline-flex items-center">
+                              class="px-4 py-2.5 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 font-semibold text-sm inline-flex items-center">
                                <i class="fa-solid fa-globe mr-2"></i>Website
                            </a>` : ''}
                     <button type="button" onclick="app.toggleSaved('${place.id}'); app.openDetail('${place.id}')"
-                            class="px-4 py-2.5 rounded-xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-semibold text-sm inline-flex items-center">
+                            class="px-4 py-2.5 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 font-semibold text-sm inline-flex items-center">
                         <i class="fa-${this.saved.has(place.id) ? 'solid' : 'regular'} fa-heart mr-2 ${this.saved.has(place.id) ? 'text-rose-500' : ''}"></i>
                         ${this.saved.has(place.id) ? 'Saved' : 'Save'}
                     </button>
@@ -705,7 +707,7 @@ const app = {
                     <input type="radio" id="city-${i}" name="city" value="${escapeHtml(name)}"
                            class="sr-only city-input" ${i === 0 ? 'checked' : ''}>
                     <label for="city-${i}"
-                           class="cursor-pointer inline-block px-5 py-2.5 rounded-full text-sm font-medium bg-slate-50 text-slate-600 border border-slate-200 transition-all hover:bg-slate-100">
+                           class="cursor-pointer inline-block px-5 py-2.5 rounded-full text-sm font-medium bg-stone-50 text-stone-600 border border-stone-200 transition-all hover:bg-stone-100">
                         <i class="fa-solid ${meta.icon} mr-2"></i>${escapeHtml(name)}
                     </label>
                 </div>`).join('');
@@ -714,7 +716,7 @@ const app = {
             <div>
                 <input type="checkbox" id="vibe-${v.id}" value="${v.id}" class="sr-only chip-input vibe-input">
                 <label for="vibe-${v.id}"
-                       class="cursor-pointer inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-white text-slate-600 border border-slate-200 transition-all hover:bg-slate-50 shadow-stripe-sm">
+                       class="cursor-pointer inline-flex items-center px-4 py-2 rounded-xl text-sm font-medium bg-white text-stone-600 border border-stone-200 transition-all hover:bg-stone-50 shadow-stripe-sm">
                     <i class="fa-solid ${v.icon} mr-2 ${v.colour}"></i>${escapeHtml(v.label)}
                 </label>
             </div>`).join('');
@@ -727,7 +729,7 @@ const app = {
         });
         document.getElementById('brand-icon').className = `fa-solid ${BRAND.icon} text-sm`;
         document.getElementById('hero-title').innerHTML =
-            `${escapeHtml(BRAND.heroLead)} <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-indigo-600">${escapeHtml(BRAND.heroAccent)}</span>`;
+            `${escapeHtml(BRAND.heroLead)} <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 to-blush-600">${escapeHtml(BRAND.heroAccent)}</span>`;
         document.getElementById('hero-body').textContent = BRAND.heroBody;
     },
 
@@ -775,8 +777,8 @@ const app = {
         } catch (err) {
             document.getElementById('results-grid').innerHTML = `
                 <div class="col-span-full p-6 bg-white rounded-2xl border border-rose-200 text-center">
-                    <p class="font-semibold text-slate-900">Couldn't load the places list.</p>
-                    <p class="text-sm text-slate-500 mt-1">${escapeHtml(err.message)}. If you opened this file directly,
+                    <p class="font-semibold text-stone-800">Couldn't load the places list.</p>
+                    <p class="text-sm text-stone-500 mt-1">${escapeHtml(err.message)}. If you opened this file directly,
                     serve the folder over HTTP instead — browsers block local fetches.</p>
                 </div>`;
             return;

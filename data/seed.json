@@ -643,7 +643,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 25.7447,
   "lng": -80.21158,
   "address": "Miami, Florida",
@@ -780,7 +780,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 25.76499,
   "lng": -80.25277,
   "address": "3555 Southwest 8th Street, Miami, Florida, 33135",
@@ -915,7 +915,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 25.67425,
   "lng": -80.15796,
   "address": "Key Biscayne, Florida",
@@ -1323,7 +1323,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 25.7896,
   "lng": -80.13279,
   "address": "Drexel Avenue, Miami Beach, Florida, 33139",
@@ -1390,7 +1390,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 25.76587,
   "lng": -80.2198,
   "address": "1513 Southwest 8th Street, Miami, Florida, 33135",
@@ -1593,7 +1593,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 26.11924,
   "lng": -80.14702,
   "address": "Riverwalk, Fort Lauderdale, Florida, 33301",
@@ -1864,7 +1864,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "mapsPlaceId": "ChIJQWpeWE4A2YgRNKx4pjQK7PE",
   "lat": 26.11841,
   "lng": -80.12881,
@@ -2072,7 +2072,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 26.13082,
   "lng": -80.1041,
   "address": "551 North Fort Lauderdale Beach Boulevard, Fort Lauderdale, Florida, 33304",
@@ -2274,7 +2274,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 26.11957,
   "lng": -80.14266,
   "address": "1 East Las Olas Boulevard, Fort Lauderdale, Florida, 33301",
@@ -2344,7 +2344,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 26.1172,
   "lng": -80.10622,
   "address": "429 Seabreeze Boulevard, Fort Lauderdale, Florida, 33316",
@@ -2812,7 +2812,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.37116,
   "lng": -81.51837,
   "address": "Florida",
@@ -2882,7 +2882,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.54397,
   "lng": -81.37043,
   "address": "Orlando, Florida",
@@ -2944,7 +2944,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.55178,
   "lng": -81.34704,
   "address": "Irvington Avenue, Orlando, Florida, 32803",
@@ -3354,7 +3354,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.59789,
   "lng": -81.34683,
   "address": "312 East Morse Boulevard, Winter Park, Florida, 32789",
@@ -3422,7 +3422,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.59393,
   "lng": -81.36725,
   "address": "Dallas Avenue, Winter Park, Florida, 32789",
@@ -3489,7 +3489,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.56831,
   "lng": -81.34377,
   "address": "3201 Corrine Drive, Orlando, Florida, 32803",
@@ -3818,7 +3818,7 @@
     ]
    ]
   },
-  "recommended": true,
+  "recommended": false,
   "lat": 28.74248,
   "lng": -81.48827,
   "address": "Apopka, Florida",

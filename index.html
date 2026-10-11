@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Florida Explorer | Curated Local Experiences</title>
-    <meta name="description" content="Find the right thing to do in Miami, Orlando and Fort Lauderdale right now — filtered by where you are, what time it is and what you feel like.">
+    <title>Marie&#39;s Florida Explorer | Curated Local Experiences</title>
+    <meta name="description" content="Marie&#39;s guide to Miami, Orlando and Fort Lauderdale — find the right thing to do right now — filtered by where you are, what time it is and what you feel like.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%235850ec%22/%3E%3Cpath%20d%3D%22M16%207c-3.3%200-6%202.7-6%206%200%204.5%206%2012%206%2012s6-7.5%206-12c0-3.3-2.7-6-6-6zm0%208.2a2.2%202.2%200%20110-4.4%202.2%202.2%200%20010%204.4z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23c09a63%22/%3E%3Cpath%20d%3D%22M16%207c-3.3%200-6%202.7-6%206%200%204.5%206%2012%206%2012s6-7.5%206-12c0-3.3-2.7-6-6-6zm0%208.2a2.2%202.2%200%20110-4.4%202.2%202.2%200%20010%204.4z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E">
     <link rel="stylesheet" href="assets/styles.css">
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,23 +21,28 @@
                     fontFamily: { sans: ['Inter', 'sans-serif'] },
                     colors: {
                         brand: {
-                            50: '#f0f5ff', 100: '#e5edff', 200: '#cddbfe', 300: '#b4c6fc',
-                            400: '#8da2fb', 500: '#6875f5', 600: '#5850ec', 700: '#5145cd',
-                            800: '#42389d', 900: '#362f78',
+                            50: '#fdfbf7', 100: '#f9f2e7', 200: '#f1e4cd', 300: '#e5d0aa',
+                            400: '#d4b584', 500: '#c09a63', 600: '#a8814c', 700: '#8a673d',
+                            800: '#6b5031', 900: '#4d3a24',
                         },
+                        // Muted companions to the tan, for the hero gradient and accents.
+                        sage: { 100: '#eef1ea', 400: '#93a386', 600: '#63715a', 700: '#4f5a48' },
+                        blush: { 100: '#f7eded', 400: '#c79595', 600: '#965f5f', 700: '#7a4d4d' },
                     },
                     boxShadow: {
-                        'stripe-sm': '0 2px 4px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.04)',
-                        'stripe': '0 4px 6px rgba(0,0,0,0.03), 0 2px 4px rgba(0,0,0,0.02)',
-                        'stripe-lg': '0 15px 35px rgba(50,50,93,0.1), 0 5px 15px rgba(0,0,0,0.07)',
-                        'stripe-focus': '0 0 0 3px rgba(104, 117, 245, 0.3)',
+                        // Warm-tinted shadows; a neutral grey shadow reads cold
+                        // against a cream background.
+                        'stripe-sm': '0 2px 4px rgba(120,95,60,0.04), 0 1px 2px rgba(120,95,60,0.06)',
+                        'stripe': '0 4px 6px rgba(120,95,60,0.05), 0 2px 4px rgba(120,95,60,0.04)',
+                        'stripe-lg': '0 15px 35px rgba(120,95,60,0.10), 0 5px 15px rgba(120,95,60,0.07)',
+                        'stripe-focus': '0 0 0 3px rgba(192, 154, 99, 0.35)',
                     },
                 },
             },
         };
     </script>
 </head>
-<body class="text-slate-800 min-h-screen pb-20">
+<body class="text-stone-700 min-h-screen pb-20">
 
     <a href="#results-title" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:rounded-lg focus:shadow-lg focus:text-brand-700 font-semibold">
         Skip to results
@@ -46,13 +51,13 @@
     <nav class="w-full pt-8 pb-6 px-6 max-w-6xl mx-auto relative z-20">
         <div class="flex justify-between items-center">
             <a href="." class="flex items-center gap-2 group">
-                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center text-white font-bold shadow-stripe text-lg">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-400 to-blush-400 flex items-center justify-center text-white font-bold shadow-stripe text-lg">
                     <i id="brand-icon" class="fa-solid fa-map-location-dot text-sm"></i>
                 </div>
-                <span class="font-bold text-xl tracking-tight text-slate-900" data-brand-name>Florida Explorer</span>
+                <span class="font-bold text-xl tracking-tight text-stone-800" data-brand-name>Marie&#39;s Florida Explorer</span>
             </a>
 
-            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-500">
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-stone-500">
                 <a href="#how-it-works" class="hover:text-brand-600 transition-colors">How it works</a>
                 <a href="#" data-saved-link class="hover:text-brand-600 transition-colors inline-flex items-center gap-1.5">
                     Saved Trips
@@ -64,13 +69,13 @@
                 <span id="share-note" class="text-xs text-green-600 font-medium" role="status" aria-live="polite"></span>
             </div>
 
-            <button type="button" id="nav-toggle" class="md:hidden text-slate-500 hover:text-slate-800"
+            <button type="button" id="nav-toggle" class="md:hidden text-stone-500 hover:text-stone-800"
                     aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
                 <i class="fa-solid fa-bars text-xl"></i>
             </button>
         </div>
 
-        <div id="mobile-nav" class="hidden md:hidden mt-4 p-4 bg-white rounded-xl shadow-stripe-lg border border-slate-100 flex flex-col gap-3 text-sm font-medium text-slate-600">
+        <div id="mobile-nav" class="hidden md:hidden mt-4 p-4 bg-white rounded-xl shadow-stripe-lg border border-stone-100 flex flex-col gap-3 text-sm font-medium text-stone-600">
             <a href="#how-it-works" class="hover:text-brand-600">How it works</a>
             <a href="#" data-saved-link class="hover:text-brand-600 inline-flex items-center gap-1.5">
                 Saved Trips
@@ -83,24 +88,24 @@
     <main class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
 
         <div class="text-center max-w-2xl mx-auto mt-4 mb-10">
-            <h1 id="hero-title" class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-                Discover Florida on <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-indigo-600">your schedule.</span>
+            <h1 id="hero-title" class="text-4xl sm:text-5xl font-extrabold text-stone-800 tracking-tight mb-4">
+                Discover Florida on <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 to-blush-600">your schedule.</span>
             </h1>
-            <p id="hero-body" class="text-lg text-slate-500 mb-6"></p>
+            <p id="hero-body" class="text-lg text-stone-500 mb-6"></p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <button type="button" id="geo-button"
-                        class="px-5 py-2.5 rounded-full bg-white border border-slate-200 shadow-stripe hover:bg-slate-50 text-slate-700 font-semibold text-sm inline-flex items-center">
+                        class="px-5 py-2.5 rounded-full bg-white border border-stone-200 shadow-stripe hover:bg-stone-50 text-stone-700 font-semibold text-sm inline-flex items-center">
                     <i class="fa-solid fa-location-crosshairs mr-2 text-brand-500"></i> Use my location
                 </button>
-                <p id="geo-status" class="text-sm text-slate-500" role="status" aria-live="polite"></p>
+                <p id="geo-status" class="text-sm text-stone-500" role="status" aria-live="polite"></p>
             </div>
         </div>
 
-        <form id="controls" class="bg-white rounded-2xl shadow-stripe-lg border border-slate-100 p-6 md:p-8 mb-6"
+        <form id="controls" class="bg-white rounded-2xl shadow-stripe-lg border border-stone-100 p-6 md:p-8 mb-6"
               onsubmit="return false">
             <div class="flex flex-col md:flex-row gap-8">
                 <fieldset id="city-fieldset" class="flex-1 transition-opacity">
-                    <legend class="block text-sm font-semibold text-slate-700 mb-3 uppercase tracking-wider">Current City</legend>
+                    <legend class="block text-sm font-semibold text-stone-700 mb-3 uppercase tracking-wider">Current City</legend>
                     <div id="city-options" class="flex flex-wrap gap-2"></div>
                     <p id="saved-view-note" class="hidden text-xs text-brand-600 mt-3 font-medium">
                         Showing saved places across all cities.
@@ -108,29 +113,29 @@
                 </fieldset>
 
                 <div class="w-full md:w-64">
-                    <label for="time-input" class="block text-sm font-semibold text-slate-700 mb-3 uppercase tracking-wider">What time is it?</label>
+                    <label for="time-input" class="block text-sm font-semibold text-stone-700 mb-3 uppercase tracking-wider">What time is it?</label>
                     <div class="relative">
-                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-500">
                             <i class="fa-regular fa-clock"></i>
                         </div>
                         <input type="time" id="time-input" value="18:00"
-                               class="block w-full pl-10 pr-3 py-2.5 text-base text-slate-700 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-brand-500 focus:shadow-stripe-focus transition-shadow">
+                               class="block w-full pl-10 pr-3 py-2.5 text-base text-stone-700 bg-stone-50 border border-stone-200 rounded-xl focus:outline-none focus:border-brand-500 focus:shadow-stripe-focus transition-shadow">
                     </div>
-                    <p id="time-context" class="text-xs text-brand-600 mt-2 font-medium"></p>
-                    <label class="mt-3 inline-flex items-center gap-2 text-sm text-slate-600 cursor-pointer">
+                    <p id="time-context" class="text-xs text-brand-800 mt-2 font-medium"></p>
+                    <label class="mt-3 inline-flex items-center gap-2 text-sm text-stone-600 cursor-pointer">
                         <input type="checkbox" id="open-now-toggle"
-                               class="w-4 h-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500">
+                               class="w-4 h-4 rounded border-stone-300 text-brand-600 focus:ring-brand-500">
                         Only show places open now
                     </label>
                 </div>
             </div>
 
-            <hr class="border-slate-100 my-6">
+            <hr class="border-stone-100 my-6">
 
             <fieldset>
-                <legend class="block text-sm font-semibold text-slate-700 mb-3 uppercase tracking-wider">What's the vibe?</legend>
+                <legend class="block text-sm font-semibold text-stone-700 mb-3 uppercase tracking-wider">What's the vibe?</legend>
                 <div id="vibe-options" class="flex flex-wrap gap-3"></div>
-                <p class="text-xs text-slate-400 mt-3">
+                <p class="text-xs text-stone-500 mt-3">
                     Pick several vibes to widen the search. <strong>No spending</strong> always applies as a hard limit.
                 </p>
             </fieldset>
@@ -140,53 +145,53 @@
 
         <div>
             <div class="flex justify-between items-end mb-6 gap-4">
-                <h2 class="text-2xl font-bold text-slate-900" id="results-title" tabindex="-1">Recommended for you</h2>
-                <span class="shrink-0 text-sm font-medium text-slate-500 bg-slate-200 px-3 py-1 rounded-full" id="results-count">0 places</span>
+                <h2 class="text-2xl font-bold text-stone-800" id="results-title" tabindex="-1">Recommended for you</h2>
+                <span class="shrink-0 text-sm font-medium text-stone-700 bg-stone-100 px-3 py-1 rounded-full" id="results-count">0 places</span>
             </div>
 
             <p id="results-live" class="sr-only" role="status" aria-live="polite"></p>
 
             <div id="results-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
-            <div id="empty-state" class="hidden py-16 px-4 text-center bg-white rounded-2xl border border-dashed border-slate-300">
-                <div class="w-20 h-20 mx-auto bg-slate-50 rounded-full flex items-center justify-center mb-4">
-                    <i class="fa-solid fa-magnifying-glass-location text-3xl text-slate-300"></i>
+            <div id="empty-state" class="hidden py-16 px-4 text-center bg-white rounded-2xl border border-dashed border-stone-300">
+                <div class="w-20 h-20 mx-auto bg-stone-50 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-magnifying-glass-location text-3xl text-stone-300"></i>
                 </div>
-                <h3 class="text-lg font-bold text-slate-900 mb-2">No matches yet</h3>
-                <p id="empty-message" class="text-slate-500 max-w-sm mx-auto"></p>
+                <h3 class="text-lg font-bold text-stone-800 mb-2">No matches yet</h3>
+                <p id="empty-message" class="text-stone-500 max-w-sm mx-auto"></p>
                 <button type="button" id="reset-filters"
-                        class="mt-6 px-6 py-2 bg-white border border-slate-200 text-slate-700 font-medium rounded-full shadow-stripe hover:bg-slate-50 transition-colors">
+                        class="mt-6 px-6 py-2 bg-white border border-stone-200 text-stone-700 font-medium rounded-full shadow-stripe hover:bg-stone-50 transition-colors">
                     Clear filters
                 </button>
             </div>
         </div>
 
-        <section id="how-it-works" class="mt-16 bg-white rounded-2xl shadow-stripe border border-slate-100 p-6 md:p-8">
-            <h2 class="text-xl font-bold text-slate-900 mb-4">How it works</h2>
-            <div class="grid sm:grid-cols-3 gap-6 text-sm text-slate-600">
+        <section id="how-it-works" class="mt-16 bg-white rounded-2xl shadow-stripe border border-stone-100 p-6 md:p-8">
+            <h2 class="text-xl font-bold text-stone-800 mb-4">How it works</h2>
+            <div class="grid sm:grid-cols-3 gap-6 text-sm text-stone-600">
                 <div>
                     <div class="w-9 h-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-2">
                         <i class="fa-solid fa-location-crosshairs"></i>
                     </div>
-                    <h3 class="font-semibold text-slate-900 mb-1">Where you are</h3>
+                    <h3 class="font-semibold text-stone-800 mb-1">Where you are</h3>
                     <p>Share your location to sort everything by how far it actually is, or just pick a city.</p>
                 </div>
                 <div>
                     <div class="w-9 h-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-2">
                         <i class="fa-regular fa-clock"></i>
                     </div>
-                    <h3 class="font-semibold text-slate-900 mb-1">When you're going</h3>
+                    <h3 class="font-semibold text-stone-800 mb-1">When you're going</h3>
                     <p>Opening hours are checked in Florida time, so a place that's shut won't be suggested.</p>
                 </div>
                 <div>
                     <div class="w-9 h-9 rounded-lg bg-brand-50 text-brand-600 flex items-center justify-center mb-2">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <h3 class="font-semibold text-slate-900 mb-1">What you liked</h3>
+                    <h3 class="font-semibold text-stone-800 mb-1">What you liked</h3>
                     <p>Save places as you browse and share the exact view you're looking at with a link.</p>
                 </div>
             </div>
-            <p class="text-xs text-slate-400 mt-6">
+            <p class="text-xs text-stone-500 mt-6">
                 Prices and opening hours are researched snapshots, not a live feed — each place shows when it was
                 last verified. Always confirm with the venue before travelling.
             </p>
